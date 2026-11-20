@@ -845,7 +845,7 @@ button.tile:active{transform:scale(1.03,.93)}
 <noscript><div style="position:relative;z-index:5;margin:16px;padding:16px;border-radius:14px;background:#fff;color:#9b1226;font:bold 18px Arial,sans-serif">JavaScript di browser ini dimatikan, sehingga aplikasi tidak bisa tampil. Aktifkan JavaScript atau pakai Chrome terbaru.</div></noscript>
 <div class="bg" aria-hidden="true"><div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div></div>
 <div id="app"><div id="boot"><div class="spin"></div><p>Memuat aplikasi…</p></div></div>
-<div id="loader"><div class="spin"></div><div class="ltx">Mohon tunggu…</div></div>
+<div id="loader"><div class="spin"></div><div class="ltx">Sabar sek…</div></div>
 <div id="modal"></div>
 <div id="drawer"></div>
 <div id="toast"></div>
@@ -2171,7 +2171,7 @@ async function approveIds(ids){
       (d.peringatan || []).forEach(w => { if (peri.indexOf(w) < 0) peri.push(w); });
     }
   } catch (e) { fatal = e.message; }
-  busy(-1); if (pesan) pesan.textContent = 'Mohon tunggu\u2026';
+  busy(-1); if (pesan) pesan.textContent = 'Sabar\u2026';
   const okN = hasil.filter(h => h.ok).length, bad = hasil.filter(h => !h.ok), warn = hasil.filter(h => h.warn);
   const list = bad.map(h => `<div class="warnbox" style="margin-bottom:8px">${esc(h.nama || 'Pengajuan')}${h.email ? ' (' + esc(h.email) + ')' : ''}: ${esc(h.msg)}</div>`).join('')
     + warn.map(h => `<div class="warnbox" style="margin-bottom:8px">${esc(h.nama || '')}: ${esc(h.warn)}</div>`).join('')
