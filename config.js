@@ -10,4 +10,4 @@
    (Memperbarui lewat Kelola penerapan > Edit > Versi baru TIDAK mengubah link.)
    Bila dikosongkan (''), kolom "Alamat server" tampil di layar masuk dan diisi manual di tiap HP.
    ============================================================ */
-window.CLR_SERVER = 'https://script.google.com/macros/s/AKfycby0oJ-PWL-EuDszaZ7LgHIqu1dzVjvg7Ks5LPsGg2nazjAq5wJFJgpCXcU3B91fr1rWUQ/exec';
+window.CLR_SERVER = 'https://script.google.com/macros/s/AKfycbyqSw2LZCYxpIQM_LHMwz6IHMH-dyAqW0Z2X6ss6OQzSp9OCdPPvTFF4MlsjpSjNEL3Zg/exec';
